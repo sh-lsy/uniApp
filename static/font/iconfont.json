@@ -1,0 +1,44 @@
+{
+  "id": "3665304",
+  "name": "uniAPP",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1727422",
+      "name": "205设置",
+      "font_class": "shezhi",
+      "unicode": "e8b8",
+      "unicode_decimal": 59576
+    },
+    {
+      "icon_id": "1969464",
+      "name": "登出",
+      "font_class": "dengchu",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "9066652",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e88b",
+      "unicode_decimal": 59531
+    },
+    {
+      "icon_id": "11372722",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e8bd",
+      "unicode_decimal": 59581
+    },
+    {
+      "icon_id": "11372763",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e8c4",
+      "unicode_decimal": 59588
+    }
+  ]
+}

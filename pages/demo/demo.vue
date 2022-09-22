@@ -9,6 +9,7 @@
 		<view class="fs-30">
 			demo--fs-30
 		</view>
+		<span class="iconfont icon-shezhi"></span>
 	</view>
 </template>
 
@@ -28,5 +29,9 @@
 <style lang="scss">
 .title{
 	color: orange;
+}
+.icon-shezhi {
+	font-size: 50rpx;
+	color: #bfa;
 }
 </style>
