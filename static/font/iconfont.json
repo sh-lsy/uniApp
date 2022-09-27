@@ -6,6 +6,62 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "651192",
+      "name": "我的订单",
+      "font_class": "wodedingdan0101",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "780044",
+      "name": "红包",
+      "font_class": "hongbao",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "1727352",
+      "name": "20积分",
+      "font_class": "jifen",
+      "unicode": "e897",
+      "unicode_decimal": 59543
+    },
+    {
+      "icon_id": "2488825",
+      "name": "48银行卡",
+      "font_class": "yinhangqia",
+      "unicode": "e936",
+      "unicode_decimal": 59702
+    },
+    {
+      "icon_id": "5656646",
+      "name": "待收货",
+      "font_class": "daishouhuo",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "10483775",
+      "name": "余额",
+      "font_class": "yue",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "10905578",
+      "name": "待付款",
+      "font_class": "daifukuan",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "18480963",
+      "name": "01_会员等级管理",
+      "font_class": "01_huiyuandengjiguanli",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
       "icon_id": "1727422",
       "name": "205设置",
       "font_class": "shezhi",
