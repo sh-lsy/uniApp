@@ -10,55 +10,62 @@
 				"enablePullDownRefresh": true // 刷新事件
 				//"navigationStyle": "custom" // 取消导航
 			}
-		},
-		{
-			"path": "pages/home/home",
-			"style": {
-				"navigationBarTitleText": "home",
-				"enablePullDownRefresh": false,
-				"navigationStyle": "custom"
-			}
-		},
-		{
-			"path": "pages/demo/demo",
-			"style": {
-				"navigationBarTitleText": "demo",
-				"navigationBarBackgroundColor": "#00ccff",
-				"navigationBarTextStyle": "white",
-				"enablePullDownRefresh": true // 刷新事件
-				//"navigationStyle": "custom" // 取消导航
-			}
-		}
-	],
+		},{
+            "path" : "pages/bread/bread",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/food/food",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/cake/cake",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                  "background": "#bbffaa",
+                  "titleNView": {
+                    // "backgroundColor": "#808080",
+                    // "titleColor": "#fff"
+                  }
+                }
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#ff66cc",
-		"backgroundColor": "#bfa"
+		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
-		"backgroundColor": "#00ccff",
-		"color": "#fff",
+		"backgroundColor": "#fff",
+		"color": "#999",
 		"position": "bottom",
-		"selectedColor": "#33ffff",
+		"selectedColor": "#ff66cc",
 		"list": [
 			{
-				"pagePath": "pages/home/home",
-				"text": "首页",
-				"iconPath": "static/tab/tab_icon1.png",
-				"selectedIconPath": "static/tab/tab_icon1_active.png"
+				"text":"蛋糕",
+								"pagePath":"pages/cake/cake"
 			},
 			{
-				"pagePath": "pages/index/index",
-				"text": "欢迎",
-				"iconPath": "static/tab/tab_icon2.png",
-				"selectedIconPath": "static/tab/tab_icon2_active.png"
+				"text":"面包",
+				"pagePath":"pages/bread/bread"
 			},
 			{
-				"pagePath": "pages/demo/demo",
-				"text": "demo",
-				"iconPath": "static/tab/tab_icon3.png",
-				"selectedIconPath": "static/tab/tab_icon3_active.png"
+				"text":"小食",
+				"pagePath":"pages/food/food"
 			}
 		]
 	}
