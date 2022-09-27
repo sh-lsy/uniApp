@@ -6,19 +6,22 @@
 		</view>
 		<view class="test">
 			<button type="primary" @tap="change">tap操作</button>
-			<button type="primary" @click="change">tap操作</button>
+			<button type="primary" @click="change">click操作</button>
 			<view class="box" :class="{active: isActive}"></view>
 		</view>
 	</view>
 </template>
 
 <script setup>
-import {ref} from 'vue'
+import {ref, watch} from 'vue'
 	const title = ref('hello vue3-uniApp')
 	const isActive = ref(false)
 	const change = () =>{
 		isActive.value = !isActive.value
 	}
+	watch(isActive,(newData) => {
+		console.log('aaa',newData);
+	})
 </script>
 
 <style>
